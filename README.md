@@ -8,3 +8,4 @@
 * 10:20: Add testimonials schema for practice
 * 10:30: Sanity.io research
 * 11:30: Add abouts, brands, contact, experiences, schema, skills, workExperience, and works Sanity.io schemas
+* 12:00: Add frontend react 
