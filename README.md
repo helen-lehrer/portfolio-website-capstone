@@ -16,4 +16,5 @@
 * 1:30: Setup App.scss classes and boilerplate code
 * 1:45: Add placeholder assets & images.js
 * 2:00: Create logo .PNG for Navbar
-* 2:45: Add Navbar navigation
+* 2:45: Add Navbar navigation & BEM research
+* 2:50: Style Navbar with scss
