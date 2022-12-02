@@ -7,3 +7,4 @@
 * 10:00: Add Sanity.io package and .gitignore
 * 10:20: Add testimonials schema for practice
 * 10:30: Sanity.io research
+* 11:30: Add abouts, brands, contact, experiences, schema, skills, workExperience, and works Sanity.io schemas
