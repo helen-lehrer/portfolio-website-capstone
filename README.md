@@ -17,4 +17,7 @@
 * 1:45: Add placeholder assets & images.js
 * 2:00: Create logo .PNG for Navbar
 * 2:45: Add Navbar navigation & BEM research
-* 2:50: Style Navbar with scss
+* 2:50: scss research
+* 3:00: Style Navbar with scss
+* 3:40: Add mobile Navbar
+* 4:10: Add mobile Navbar styling
