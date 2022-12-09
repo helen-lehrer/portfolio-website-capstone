@@ -12,6 +12,16 @@ const abouts = [
 ]
 
 const About = () => {
+  const [abouts, setAbouts] = useState([]);
+
+  useEffect(() => {
+    const query = '*[_type == "abouts"]';
+
+    client.fetch(query).then((data) => {
+      setAbouts(data);
+    });
+  }, []);
+  
   return (
     <>
       <h2 className="head-text">I Know That <span>Good Apps</span><br /> means <span>Good Business</span>
