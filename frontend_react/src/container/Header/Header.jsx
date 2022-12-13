@@ -5,6 +5,8 @@ import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import ReactTooltip from 'react-tooltip'; 
 import './Header.scss';
+import Tooltip, { tooltipClasses }  from '@mui/material/Tooltip';
+import { styled } from '@mui/material/styles';
 
 const scaleVariants = {
   whileInView:{
@@ -16,6 +18,19 @@ const scaleVariants = {
     }
   }
 }
+
+const HtmlTooltip = styled(({ className, ...props }) => (
+  <Tooltip {...props} classes={{ popper: className }} />
+))(({ theme }) => ({
+  [`& .${tooltipClasses.tooltip}`]: {
+    backgroundColor: '#f5f5f9',
+    color: 'rgba(0, 0, 0, 0.87)',
+    maxWidth: 220,
+    fontSize: theme.typography.pxToRem(12),
+    border: '1px solid #dadde9',
+  },
+}));
+
 
 const Header = () => {
   return (
@@ -62,18 +77,12 @@ const Header = () => {
       >
         {[images.flutter, images.redux, images.sass].map((circle, index) => (
           <>
+          <HtmlTooltip title={index} placement="right-end">
           <div className="circle-cmp app__flex" key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>
             <img src={circle} alt="profile_bg" />
-            <ReactTooltip
-              id={`circle-${index}`}
-              effect="solid"
-              arrowColor="#fff"
-              className="circle-tooltip"
-            >
-            "hello"
-            </ReactTooltip>
           </div>
-            </>
+          </HtmlTooltip>
+          </>
         ))}
       </motion.div> 
     </div>
