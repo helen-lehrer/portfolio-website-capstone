@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
+import ReactTooltip from 'react-tooltip'; 
 import './Header.scss';
 
 const scaleVariants = {
@@ -26,10 +27,10 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
-            <span>👋</span>
+            {/* <span>👋</span> */}
             <div style={{ marginLeft:20 }}>
               <p className="p-text">Hello, I am</p>
-              <h1 className="head-text">Helen</h1>
+              <span className="head-text">Helen Lehrer{" "}</span>
             </div>
           </div>
 
@@ -60,9 +61,19 @@ const Header = () => {
         className="app__header-circles"
       >
         {[images.flutter, images.redux, images.sass].map((circle, index) => (
-          <div className="circle-cmp app__flex" key={`circle-${index}`}>
+          <>
+          <div className="circle-cmp app__flex" key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>
             <img src={circle} alt="profile_bg" />
+            <ReactTooltip
+              id={`circle-${index}`}
+              effect="solid"
+              arrowColor="#fff"
+              className="circle-tooltip"
+            >
+            "hello"
+            </ReactTooltip>
           </div>
+            </>
         ))}
       </motion.div> 
     </div>

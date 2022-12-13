@@ -10,6 +10,9 @@
   --gray-color: #eaeaec;
   --brown-color: #46364a;
   --white-color: #ffffff;
+  --color-purple: #8000ff;
+  --color-light-purple: #fc3c3c;
+  --color-light-blue: #ff8848;
 }
 
 * {
