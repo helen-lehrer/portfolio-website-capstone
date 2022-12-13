@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
+  padding: .5rem 2rem;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -19,10 +19,10 @@
   align-items: center;
 
   img {
-    width: 250px;
+    width: 200px;
 
     @media screen and (min-width: 2000px) {
-      width: 500px;
+      width: 300px;
     }
   }
 }
@@ -53,11 +53,18 @@
       flex-direction: column;
       text-transform: uppercase;
       font-weight: 500;
+      font-size: 15px;
+      padding: 0 .5rem;
 
       transition: all 0.3s ease-in-out;
 
       &:hover {
         color: var(--secondary-color)
+      }
+
+      @media screen and (min-width: 2000px) {
+        font-size: 25px;
+        padding: 0 2rem;
       }
     }
 
