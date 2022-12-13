@@ -69,17 +69,18 @@ const Header = () => {
             className="overlay_circle"
           />
       </motion.div> 
-
+  
       <motion.div
         variant={scaleVariants}
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.flutter, images.redux, images.sass].map((circle, index) => (
+   
+        {[{"image": images.node, "tooltip": "Node.js"}, {"image": images.react, "tooltip": "React"}, {"image": images.dotnet, "tooltip": "Dotnet"}].map((circle, index) => (
           <>
-          <HtmlTooltip title={index} placement="right-end">
+          <HtmlTooltip title={circle["tooltip"]} placement="right-end">
           <div className="circle-cmp app__flex" key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>
-            <img src={circle} alt="profile_bg" />
+            <img src={circle["image"]} alt="profile_bg" />
           </div>
           </HtmlTooltip>
           </>
