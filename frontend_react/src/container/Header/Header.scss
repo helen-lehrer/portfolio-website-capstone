@@ -83,12 +83,12 @@
       // var(--color-light-blue),
       // var(--color-light-purple)
       // );
-      background: linear-gradient(45deg, #2128fd, #80fffc, #2128fd, #80fffc);
+      background:  linear-gradient(45deg, #ff00008d, rgba(255, 102, 0, 0.531), rgba(255, 187, 0, 0.459), rgba(0, 128, 0, 0.45), rgba(0, 0, 255, 0.446), rgba(76, 0, 130, 0.41), rgba(238, 130, 238, 0.446), rgba(255, 0, 0, 0.458));;
       background-clip: text;
       -webkit-background-clip:text;
       -webkit-text-fill-color:transparent;
       background-size:400% 400%;
-      animation: gradient 3s ease infinite;
+      animation: gradient 6s ease infinite;
       @keyframes gradient {
         0% {
           background-position: 0% 50%;

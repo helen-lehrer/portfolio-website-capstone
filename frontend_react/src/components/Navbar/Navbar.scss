@@ -18,6 +18,14 @@
   justify-content: flex-start;
   align-items: center;
 
+  h1 {
+    font-family:  'Squada One', cursive;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    color:var(--white-color);
+    padding: 1rem;
+  }
+
   img {
     width: 200px;
 
