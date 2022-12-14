@@ -25,8 +25,7 @@ const HtmlTooltip = styled(({ className, ...props }) => (
     backgroundColor: '#f5f5f9',
     color: 'rgba(0, 0, 0, 0.87)',
     maxWidth: 220,
-    fontSize: theme.typography.pxToRem(20),
-    border: '1px solid #dadde9',
+    fontSize: theme.typography.pxToRem(20)
   },
 }));
 
@@ -74,9 +73,9 @@ const Header = () => {
         className="app__header-circles"
       >
    
-        {[{"image": images.dotnet, "tooltip": "C#/.NET", "id": "0"}, {"image": images.react, "tooltip": "React", "id": "1"}, {"image": images.javascript, "tooltip": "Javascript", "id": "2"}].map((circle, index) => (
+        {[{"image": images.csharp, "tooltip": "C#/.NET", "id": "0"}, {"image": images.react, "tooltip": "React/Redux", "id": "1"}, {"image": images.javascript, "tooltip": "Javascript/Node.js", "id": "2"}].map((circle, index) => (
           <>
-          <HtmlTooltip title={circle["tooltip"]} placement="right-end">
+          <HtmlTooltip title={circle["tooltip"]} placement="right">
           <div className="circle-cmp app__flex " id={circle["id"]} key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>
             <img src={circle["image"]} alt="profile_bg" />
           </div>
