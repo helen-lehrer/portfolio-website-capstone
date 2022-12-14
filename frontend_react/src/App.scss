@@ -147,6 +147,31 @@
     }
   }
 }
+#idhome {
+  &:hover {
+  background-color: #ff0000a7;
+  }
+}
+#idabout {
+  &:hover {
+  background-color: #ffbb0089;
+  }
+}
+#idwork {
+  &:hover {
+  background-color: #00800073;
+  }
+}
+#idskills {
+  &:hover {
+  background-color: #00b7ff7c;
+  }
+}
+#idcontact {
+  &:hover {
+  background-color: #4c008269;
+  }
+}
 
 .app__navigation {
   display: flex;
@@ -164,11 +189,6 @@
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
-    &:hover {
-      .home {
-      background-color: var(--secondary-color);
-      }
-    }
 
 
     @media screen and (min-width: 2000px) {

@@ -6,7 +6,7 @@ let nav = {
   'home': {color: '#ff0000a7'},
   'about': {color: '#ffbb0089'},
   'work': {color: '#00800073'},
-  'skills': {color: '#0000ff72'},
+  'skills': {color: '#00b7ff7c'},
   'contact': {color: '#4c008269'},
 }
 
@@ -17,8 +17,8 @@ let nav = {
           href={`#${item}`}
           key={item + index}
           id={`id${item}`}
-          className={`app__navigation-dot ${item}`}
-          style={active === item ? { background: `${nav[item].color}`, hover: '#ff0000a7' } : { }}
+          className="app__navigation-dot"
+          style={active === item ? { background: `${nav[item].color}` } : { }}
           />
           )
       )}
