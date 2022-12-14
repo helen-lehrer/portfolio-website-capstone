@@ -23,28 +23,7 @@
     letter-spacing: .2rem;
     font-size: 2rem;
     color:var(--white-color);
-    padding: 1rem;
-
-    
-      // background:  linear-gradient(45deg, #ff00008d, rgba(255, 102, 0, 0.531), rgba(255, 187, 0, 0.459), rgba(0, 128, 0, 0.45), rgba(0, 0, 255, 0.446), rgba(76, 0, 130, 0.41), rgba(238, 130, 238, 0.446), rgba(255, 0, 0, 0.458));;
-      // background-clip: text;
-      // -webkit-background-clip:text;
-      // -webkit-text-fill-color:transparent;
-      // background-size:400% 400%;
-      // animation: gradient 6s ease infinite;
-      // @keyframes gradient {
-      //   0% {
-      //     background-position: 0% 50%;
-      //   }
-      //   50% {
-      //     background-position: 100% 50%;
-      //   }
-      //   100% {
-      //     background-position: 0% 50%;
-      //   }
-      // }
-     
-    
+    padding: 1rem; 
   }
 
   img {
@@ -89,9 +68,9 @@
       transition: all 0.3s ease-in-out;
     
   
-      &:hover {
-        color: var(--secondary-color)
-      }
+      // &:hover {
+      //   color: var(--secondary-color)
+      // }
  
       // div:nth-child(1) {
       //   width: 100px;
@@ -109,16 +88,83 @@
       }
     }
 
-    &:hover {
-      div {
-        border-top: 10px solid var(--secondary-color)
-      }
-    }
+    // &:hover {
+    //   div {
+    //     border-top: 10px solid var(--secondary-color)
+    //   }
+    // }
   }
 
   @media screen and (max-width: 900px) {
     display: none;
   } 
+}
+
+
+#app__navbar-link-home {
+  &:hover {
+    color: #ff7070;
+    }
+}
+#app__navbar-link-about {
+  &:hover {
+    color: #ffd971;
+    }
+}
+#app__navbar-link-work {
+  &:hover {
+    color: #9bff9b;
+    }
+}
+#app__navbar-link-skills {
+  &:hover {
+    color: #54ceff;
+    }
+  }
+#app__navbar-link-contact {
+  &:hover {
+    color: #d195fc;
+    }
+}
+
+#app__navbar-li-home {
+  &:hover {
+    div {
+    border-top: 10px solid #ff7070
+    }
+  }
+}
+
+#app__navbar-li-about {
+  &:hover {
+    div {
+    border-top: 10px solid  #ffd971
+    }
+  }
+}
+
+#app__navbar-li-work {
+  &:hover {
+    div {
+    border-top: 10px solid #9bff9b
+    }
+  }
+}
+
+#app__navbar-li-skills {
+  &:hover {
+    div {
+    border-top: 10px solid #54ceff
+    }
+  }
+}
+
+#app__navbar-li-contact {
+  &:hover {
+    div {
+    border-top: 10px solid #d195fc
+    }
+  }
 }
 
 .app__navbar-menu {

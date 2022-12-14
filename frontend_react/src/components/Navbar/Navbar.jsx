@@ -7,18 +7,27 @@ import './Navbar.scss';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  
+  let nav = {
+    'home': {color: '#ff0000a7'},
+    'about': {color: '#ffbb0089'},
+    'work': {color: '#00800073'},
+    'skills': {color: '#00b7ff7c'},
+    'contact': {color: '#4c008269'},
+  }
+
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        {/* <img src={images.logo} alt="logo"/> */}
         <h1>HL.</h1>
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
+          <li className="app__flex p-text" key={`link-${item}`} id={`app__navbar-li-${item}`}>
             <div />
-            <a href={`#${item}`}>{item}</a>
+            <a
+            href={`#${item}`}
+            id={`app__navbar-link-${item}`}
+            >{item}</a>
           </li>
         ))}
       </ul>

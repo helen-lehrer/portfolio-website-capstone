@@ -104,12 +104,13 @@
   flex-direction: column;
 
   padding: 1rem;
+  margin-bottom: 20px;
 
   div {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.75);
     margin: 0.25rem 0;
     border: 1px solid var(--lightGray-color);
 
@@ -122,17 +123,17 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: var(--white-color);
     }
 
-    &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+    // &:hover {
+    //   background-color: var(--secondary-color);
+    //   border-color: var(--secondary-color);
 
-      svg {
-        color: var(--white-color);
-      }
-    }
+    //   svg {
+    //     color: var(--white-color);
+    //   }
+    // }
 
     @media screen and (min-width: 2000px) {
       width: 70px;
@@ -171,6 +172,16 @@
   &:hover {
   background-color: #4c008269;
   }
+}
+#app__social-linkedin {
+    &:hover {
+      background-color: #ff7070;
+  }
+}
+#app__social-github {
+  &:hover {
+    background-color: #d79fff;
+}
 }
 
 .app__navigation {
