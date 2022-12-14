@@ -25,7 +25,7 @@ const HtmlTooltip = styled(({ className, ...props }) => (
     backgroundColor: '#f5f5f9',
     color: 'rgba(0, 0, 0, 0.87)',
     maxWidth: 220,
-    fontSize: theme.typography.pxToRem(12),
+    fontSize: theme.typography.pxToRem(20),
     border: '1px solid #dadde9',
   },
 }));
@@ -43,14 +43,14 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <div style={{ marginLeft:20 }}>
               <p className="p-text">Hello, I am</p>
-              <span className="head-text">Helen Lehrer{" "}</span>
+              <span className="head-text">Helen Lehrer.{" "}</span>
+                <p className="p-text">Full-stack developer making magic on the web.</p>
             </div>
           </div>
-
-            <div className="tag-cmp app__flex">
+            {/* <div className="tag-cmp app__flex">
               <p className="p-text">Full-Stack</p>
               <p className="p-text">Web Developer</p>
-            </div>
+            </div> */}
           </div>
       </motion.div>
         
@@ -74,10 +74,10 @@ const Header = () => {
         className="app__header-circles"
       >
    
-        {[{"image": images.node, "tooltip": "Node.js"}, {"image": images.react, "tooltip": "React"}, {"image": images.dotnet, "tooltip": "Dotnet"}].map((circle, index) => (
+        {[{"image": images.dotnet, "tooltip": "C#/.NET", "id": "0"}, {"image": images.react, "tooltip": "React", "id": "1"}, {"image": images.javascript, "tooltip": "Javascript", "id": "2"}].map((circle, index) => (
           <>
           <HtmlTooltip title={circle["tooltip"]} placement="right-end">
-          <div className="circle-cmp app__flex" key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>
+          <div className="circle-cmp app__flex " id={circle["id"]} key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>
             <img src={circle["image"]} alt="profile_bg" />
           </div>
           </HtmlTooltip>

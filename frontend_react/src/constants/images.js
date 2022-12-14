@@ -24,6 +24,7 @@ import logo from '../assets/logo.png';
 
 import prism from '../assets/prism.png';
 
+
 export default {
   email,
   mobile,
@@ -46,5 +47,6 @@ export default {
   circle,
   logo,
   dotnet,
-  prism
+  prism,
+
 };

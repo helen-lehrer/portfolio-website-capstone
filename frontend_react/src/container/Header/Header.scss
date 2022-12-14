@@ -3,8 +3,9 @@
   background: url('../../assets/prism.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 50%;
   background-clip: border-box;
+  // padding-left: 30px;
 
   .app_wrapper {
     padding: 0;
@@ -67,11 +68,14 @@
     p {
       width: 100%;
       font-size: 1.5em;
-      color:rgb(67, 67, 67)
+      color:rgb(67, 67, 67);
+      font-size: 1.5rem;
+      margin-bottom: .3rem;
+      margin-top: 1rem;
     }
 
      .head-text {
-      font-family: 'Squada One', cursive;
+      font-family:'Bebas Neue', cursive;
       font-size:5rem;
       line-height:100%;
       letter-spacing: .2rem;
@@ -103,17 +107,16 @@
      }
     }
 
-  .tag-cmp {
+  .app__tagline {
     flex-direction: column;
-    margin-top: 3rem;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: .6em;
+    font-weight: 500;
+    color:rgba(67, 67, 67, 0.179);
+    margin-top: .5rem;
 
-    p {
-      width: 100%;
-      text-transform: uppercase;
-      text-align: right;
-      font-size: 1.5em;
-      color:rgb(67, 67, 67)
-    }
   }
 
   @media screen and (max-width: 1200px) {
@@ -139,9 +142,9 @@
     background: var(--white-color);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 
-    &:hover {
-      box-shadow: 0 0 25px rgba(33, 40, 253, .25) 
-    }
+    // &:hover {
+    //   box-shadow: 0 0 25px rgba(255, 162, 0, 0.394) 
+    // }
 
     img {
       width: 60%;
@@ -152,15 +155,28 @@
   div:nth-child(1) {
     width: 100px;
     height: 100px;
+
+    &:hover {
+      box-shadow: 0 0 25px rgba(255, 162, 0, 0.3) 
+    }
+
   }
   div:nth-child(2) {
     margin: 1.75rem;
     width: 150px;
     height: 150px;
+
+    &:hover {
+      box-shadow: 0 0 25px rgba(60, 0, 255, 0.3) 
+    }
   }
   div:nth-child(3) {
     width: 70px;
     height: 70px;
+
+    &:hover {
+      box-shadow: 0 0 25px rgba(0, 255, 17, 0.3) 
+    }
   }
 
   @media screen and (min-width: 2000px) {
