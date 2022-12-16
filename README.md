@@ -27,3 +27,10 @@
 * 9:30: Prepare outline for capstone presentation
 * 10:50: Research on HOC
 * 12:40: Create graphics for About section
+* 3:00: Add contact icons
+//To Do:
+-create component diagram on figma
+-contact form icons
+-section spacing/media queries edit
+-content for About Me
+-content for skills/experiences
