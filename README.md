@@ -26,4 +26,4 @@
 #### Friday, 12/16/2022
 * 9:30: Prepare outline for capstone presentation
 * 10:50: Research on HOC
-<!-- * 11:00: Work on Figma component diagram for README -->
+* 12:40: Create graphics for About section
