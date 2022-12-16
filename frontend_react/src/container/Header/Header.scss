@@ -3,7 +3,7 @@
   background: url('../../assets/prism.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 45% 50%;
+  background-position: 65% 50%;
   background-clip: border-box;
 
   .app_wrapper {
@@ -74,18 +74,12 @@
     }
 
      .head-text {
-      font-family:'Bebas Neue', cursive;
+      font-family: var(--font-heading);
       font-size:5rem;
       line-height:100%;
       letter-spacing: .2rem;
       color:var(--white-color);
       position:relative;
-      // background: linear-gradient(-45deg,
-      // var(--color-light-blue),
-      // var(--color-light-purple),
-      // var(--color-light-blue),
-      // var(--color-light-purple)
-      // );
       background:  linear-gradient(45deg, #ff0000a7, #ff660087, rgba(255, 187, 0, 0.459), #ffbb0089, #00800073, #0000ff72, #4c008269, rgba(238, 130, 238, 0.446), rgba(255, 0, 0, 0.458));;
       background-clip: text;
       -webkit-background-clip:text;

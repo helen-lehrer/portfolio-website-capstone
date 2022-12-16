@@ -19,7 +19,7 @@
   align-items: center;
 
   a {
-    font-family:  'Bebas Neue', cursive;
+    font-family:  var(--font-heading);
     letter-spacing: .2rem;
     font-size: 2rem;
     color:var(--white-color);
@@ -104,34 +104,34 @@
 
 #app__navbar-link-home {
   &:hover {
-    color: #ff7070;
+    color: var( --pastel-red-color);
     }
 }
 #app__navbar-link-about {
   &:hover {
-    color: #ffd971;
+    color: var(--pastel-yellow-color);
     }
 }
 #app__navbar-link-work {
   &:hover {
-    color: #9bff9b;
+    color: var(--pastel-green-color);
     }
 }
 #app__navbar-link-skills {
   &:hover {
-    color: #54ceff;
+    color: var(--pastel-blue-color);
     }
   }
 #app__navbar-link-contact {
   &:hover {
-    color: #d195fc;
+    color: var(--pastel-purple-color);
     }
 }
 
 #app__navbar-li-home {
   &:hover {
     div {
-    border-top: 10px solid #ff7070
+    border-top: 10px solid var( --pastel-red-color);
     }
   }
 }
@@ -139,7 +139,7 @@
 #app__navbar-li-about {
   &:hover {
     div {
-    border-top: 10px solid  #ffd971
+    border-top: 10px solid var(--pastel-yellow-color);
     }
   }
 }
@@ -147,7 +147,7 @@
 #app__navbar-li-work {
   &:hover {
     div {
-    border-top: 10px solid #9bff9b
+    border-top: 10px solid var(--pastel-green-color);
     }
   }
 }
@@ -155,7 +155,7 @@
 #app__navbar-li-skills {
   &:hover {
     div {
-    border-top: 10px solid #54ceff
+    border-top: 10px solid var(--pastel-blue-color);
     }
   }
 }
@@ -163,7 +163,7 @@
 #app__navbar-li-contact {
   &:hover {
     div {
-    border-top: 10px solid #d195fc
+    border-top: 10px solid var(--pastel-purple-color);
     }
   }
 }
