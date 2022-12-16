@@ -23,6 +23,7 @@
 * 4:10: Add mobile Navbar styling
 * 5:00: Finish mobile Navbar styling
 
-#### Friday, 12/2/2022
-* 8:30: Prepare outline for capstone presentation
-* 9:30: Work on Figma component diagram for README
+#### Friday, 12/16/2022
+* 9:30: Prepare outline for capstone presentation
+* 10:50: Research on HOC
+<!-- * 11:00: Work on Figma component diagram for README -->
