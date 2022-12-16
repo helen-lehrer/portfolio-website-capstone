@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-position: 45% 50%;
   background-clip: border-box;
-  // padding-left: 30px;
 
   .app_wrapper {
     padding: 0;
@@ -68,7 +67,7 @@
     p {
       width: 100%;
       font-size: 1.5em;
-      color:rgb(67, 67, 67);
+      color:#434343;
       font-size: 1.3rem;
       margin-bottom: .3rem;
       margin-top: 1rem;
@@ -220,7 +219,7 @@
       object-fit: contain;
       z-index: 1;
     }
-    
+
     @media screen and (max-width: 1200px) {
       margin: 2rem 0;
     }

@@ -1,24 +1,15 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-
-import { images } from '../../constants';
 import './Navbar.scss';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  let nav = {
-    'home': {color: '#ff0000a7'},
-    'about': {color: '#ffbb0089'},
-    'work': {color: '#00800073'},
-    'skills': {color: '#00b7ff7c'},
-    'contact': {color: '#4c008269'},
-  }
 
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <h1>HL.</h1>
+        <a href="#home">HL.</a>
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (

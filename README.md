@@ -22,4 +22,7 @@
 * 3:40: Add mobile Navbar
 * 4:10: Add mobile Navbar styling
 * 5:00: Finish mobile Navbar styling
-@3:50
+
+#### Friday, 12/2/2022
+* 8:30: Prepare outline for capstone presentation
+* 9:30: Work on Figma component diagram for README
