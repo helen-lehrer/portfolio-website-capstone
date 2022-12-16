@@ -7,19 +7,32 @@
   --font-heading: "Bebas Neue", cursive;
 
   --primary-color: #edf2f8;
-  --secondary-color: #2dc2a9;
+  --secondary-color: #f29d8c;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #eaeaec;
   --brown-color: #46364a;
   --white-color: #ffffff;
 
+  /* 
+  OG
   --pastel-red-color: #ff7070;
   --pastel-yellow-color: #ffd971;;
   --pastel-green-color: #9bff9b;
   --pastel-blue-color: #54ceff;
-  --pastel-purple-color: #d195fc;
+  --pastel-purple-color: #d195fc; */
+  --pastel-red-color: #EDC4BC;
+  --pastel-yellow-color:  #E0E7B5;;
+  --pastel-green-color: #B7E5D5;
+  --pastel-blue-color: #B4D5F9;
+  --pastel-purple-color: #CFC5F6;
 
+  --saturated-red-color: #f29d8c;
+  --saturated-orange-color: #f2a56b;
+  --saturated-yellow-color:  #d0dd7c;;
+  --saturated-green-color: #9be7cc;
+  --saturated-blue-color: #84bdfa;
+  --saturated-purple-color: #ac9af7;
 }
 
 * {

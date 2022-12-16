@@ -80,7 +80,7 @@
       letter-spacing: .2rem;
       color:var(--white-color);
       position:relative;
-      background:  linear-gradient(45deg, #ff0000a7, #ff660087, rgba(255, 187, 0, 0.459), #ffbb0089, #00800073, #0000ff72, #4c008269, rgba(238, 130, 238, 0.446), rgba(255, 0, 0, 0.458));;
+      background: linear-gradient(45deg, var(--saturated-red-color), var(--saturated-orange-color), var(--saturated-yellow-color), var(--saturated-green-color), var(--saturated-blue-color), var(--saturated-purple-color), var(--saturated-red-color));
       background-clip: text;
       -webkit-background-clip:text;
       -webkit-text-fill-color:transparent;

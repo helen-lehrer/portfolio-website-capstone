@@ -150,37 +150,37 @@
 }
 #idhome {
   &:hover {
-  background-color: #ff0000a7;
+  background-color: var( --pastel-red-color);
   }
 }
 #idabout {
   &:hover {
-  background-color: #ffbb0089;
+  background-color: var(--pastel-yellow-color);
   }
 }
 #idwork {
   &:hover {
-  background-color: #00800073;
+  background-color: var(--pastel-green-color);
   }
 }
 #idskills {
   &:hover {
-  background-color: #00b7ff7c;
+  background-color: var(--pastel-blue-color);
   }
 }
 #idcontact {
   &:hover {
-  background-color: #4c008269;
+  background-color: var(--pastel-purple-color);
   }
 }
 #app__social-linkedin {
     &:hover {
-      background-color: #ff7070;
+      background-color: var( --pastel-red-color);
   }
 }
 #app__social-github {
   &:hover {
-    background-color: #d79fff;
+    background-color: var(--pastel-purple-color);
 }
 }
 
