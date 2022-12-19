@@ -16,25 +16,12 @@
   --brown-color: #46364a;
   --white-color: #ffffff;
 
-  /* 
-  OG
-  --pastel-red-color: #ff7070;
-  --pastel-yellow-color: #ffd971;;
-  --pastel-green-color: #9bff9b;
-  --pastel-blue-color: #54ceff;
-  --pastel-purple-color: #d195fc; */
-  --pastel-red-color: #EDC4BC;
-  --pastel-yellow-color:  #E0E7B5;;
-  --pastel-green-color: #B7E5D5;
-  --pastel-blue-color: #B4D5F9;
-  --pastel-purple-color: #CFC5F6;
-
-  --saturated-red-color: #f29d8c;
-  --saturated-orange-color: #f1b282;
-  --saturated-yellow-color:  #d0dd7c;;
-  --saturated-green-color: #9be7cc;
-  --saturated-blue-color: #84bdfa;
-  --saturated-purple-color: #ac9af7;
+  --pastel-red-color: #ec917f;
+  --pastel-orange-color: #f1b282;
+  --pastel-yellow-color:  #e1eb9e;;
+  --pastel-green-color: #93e4c8;
+  --pastel-blue-color: #95bfec;
+  --pastel-purple-color: #c3b7f1;
 }
 
 * {

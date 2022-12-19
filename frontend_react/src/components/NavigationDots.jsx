@@ -3,11 +3,11 @@ import React from 'react'
 const NavigationDots = ({ active }) => {
 
 let nav = {
-  'home': {color: '#EDC4BC'},
-  'about': {color: '#E0E7B5'},
-  'work': {color: '#B7E5D5'},
-  'skills': {color: '#B4D5F9'},
-  'contact': {color: '#CFC5F6'},
+  'home': {color: '#ec917f'},
+  'about': {color: '#e1eb9e'},
+  'work': {color: '#93e4c8'},
+  'skills': {color: '#95bfec'},
+  'contact': {color: '#c3b7f1'},
 }
 
   return (

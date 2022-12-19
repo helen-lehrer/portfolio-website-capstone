@@ -80,7 +80,7 @@
       letter-spacing: .2rem;
       color:var(--white-color);
       position:relative;
-      background: linear-gradient(45deg, var(--saturated-red-color), var(--saturated-orange-color), var(--saturated-yellow-color), var(--saturated-green-color), var(--saturated-blue-color), var(--saturated-purple-color), var(--saturated-red-color));
+      background: linear-gradient(45deg, var(--pastel-red-color), var(--pastel-orange-color), var(--pastel-yellow-color), var(--pastel-green-color), var(--pastel-blue-color), var(--pastel-purple-color), var(--pastel-red-color));
       background-clip: text;
       -webkit-background-clip:text;
       -webkit-text-fill-color:transparent;
@@ -168,7 +168,7 @@
     height: 70px;
 
     &:hover {
-      box-shadow: 0 0 25px var(--pastel-green-color);
+      box-shadow: 0 0 25px var(--pastel-green-color)
     }
   }
 
