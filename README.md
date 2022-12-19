@@ -36,8 +36,8 @@
 //To Do:
 -create component diagram on figma
 
--content for skills/experiences
--button to download resume
--make color a lil more saturated
+-make more media queries-social media icons
 
--make more media queries-social media icons(they disappear when mobile, links aren't active yet)
+-work on front-ends of portfolio pieces/work section
+
+(they disappear when mobile, links aren't active yet)
