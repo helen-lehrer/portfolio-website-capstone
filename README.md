@@ -31,7 +31,7 @@
 * 3:40: Write About Me content
 
 ### Monday, 12/19/2022
-
+* 3:15: Work on front-end of Hair Salon
 
 //To Do:
 -create component diagram on figma
@@ -40,4 +40,6 @@
 
 -work on front-ends of portfolio pieces/work section
 
-(social media links disappear on mobile)
+## Known Bugs
+
+* social media links disappear on mobile
