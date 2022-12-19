@@ -36,8 +36,8 @@
 //To Do:
 -create component diagram on figma
 
--make more media queries-social media icons
+-make more media queries
 
 -work on front-ends of portfolio pieces/work section
 
-(they disappear when mobile, links aren't active yet)
+(social media links disappear on mobile)
