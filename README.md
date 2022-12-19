@@ -28,9 +28,13 @@
 * 10:50: Research on HOC
 * 12:40: Create graphics for About section
 * 3:00: Add contact icons
-* 3:40: Write About Me
+* 3:40: Write About Me content
 //To Do:
 -create component diagram on figma
--section spacing/media queries edit
--content for About Me
+
+-content for About Me- media queries
 -content for skills/experiences
+-button to download resume
+-make color a lil more saturated
+
+-make more media queries-social media icons(they disappear when mobile, links aren't active yet)
