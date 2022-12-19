@@ -42,4 +42,11 @@
 .about-text {
   margin-top: 1.3rem;
   width: 700px;
+
+  @media screen and (max-width: 800px) {
+    width: 300px;
+  }
+  @media screen and (min-width: 2000px) {
+    width: 1300px;
+  }
 }

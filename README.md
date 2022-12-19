@@ -36,7 +36,6 @@
 //To Do:
 -create component diagram on figma
 
--content for About Me- media queries
 -content for skills/experiences
 -button to download resume
 -make color a lil more saturated
