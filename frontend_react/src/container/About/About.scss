@@ -41,12 +41,35 @@
 
 .about-text {
   margin-top: 1.3rem;
-  width: 700px;
 
-  @media screen and (max-width: 800px) {
-    width: 300px;
-  }
   @media screen and (min-width: 2000px) {
-    width: 1300px;
+    width: 1500px;
+    padding: 1rem;
+    margin: 1rem;
   }
+
+  @media screen and (max-width: 1999px) {
+    width: 900px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 600px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  @media screen and (max-width: 769px) {
+    width: 500px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 300px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
 }
