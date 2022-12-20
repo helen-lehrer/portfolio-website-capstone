@@ -31,13 +31,18 @@
 * 3:40: Write About Me content
 
 ### Monday, 12/19/2022
-* 3:15: Work on front-end of Hair Salon
-* 4:15: Edit Hair Salon and Botanical Adventure Content for works
+* 3:15: Work on front-end of Hair Salon app
+* 4:15: Update Hair Salon and Botanical Adventure content on Sanity
+* 4:45: Work on frontend of Dream Journal app
+* 7:30: Update Dream Journal Sanity content
 
 //To Do:
--create component diagram on figma
+-Make case study sections
+
+-create component diagram on Figma
 -make more media queries
 -work on front-ends of portfolio pieces/work section
+
 
 ## Known Bugs
 
