@@ -36,6 +36,9 @@
 * 4:45: Work on frontend of Dream Journal app
 * 7:30: Update Dream Journal Sanity content
 
+## Tuesday, 12/20/2022
+* 8:30: Research on media queries
+
 //To Do:
 -Make case study sections
 
