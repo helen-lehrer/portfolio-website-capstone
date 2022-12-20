@@ -38,6 +38,7 @@
 
 ## Tuesday, 12/20/2022
 * 8:30: Research on media queries
+* 9:30: Update Works Sanity content
 
 //To Do:
 -Make case study sections
