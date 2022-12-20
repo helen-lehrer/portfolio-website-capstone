@@ -42,6 +42,9 @@
 * 10:30: deployment on Railway.app experiments
 
 //To Do:
+-deployment/test on diff devices
+
+-Is Header img weird at 1200px??
 -Make case study sections
 
 -create component diagram on Figma
