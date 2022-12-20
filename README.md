@@ -49,7 +49,10 @@ Deployment Notes:
 -There are no Tooltips on Ipad & mobile
 -make resume button more visible everywhere
 -mobile & ipad menu weirdly glitches
+(in process)
 -'About' heading on mobile is too wide
+-home screen spacing on mobile
+-navigation spacing is slightly off
 
 //To Do:
 -Fix responsive design

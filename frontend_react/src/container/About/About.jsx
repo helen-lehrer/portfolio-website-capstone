@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know That It's Not Just A <span>Website.</span><br /> It's An <span>Experience.</span>
+      <h2 className="head-text" id="head-text-about">I Know That It's Not Just A <span>Website.</span><br /> It's An <span>Experience.</span>
       </h2>
       <div className="about-text">
         <p className="p-text">Hello! My name is Helen and I love contributing to the most influential invention of our time- the Internet. My interest in all things digital media began in middle school when I won a logo design contest for a local auction company and the prize was a Nikon Coolpix digital camera. From there, my creative interests evolved from graphic design to multimedia arts and videography and ultimately landed in the field of web development. I am passionate about optimizing systems and creating digital interactions that feel natural and seamless. </p>
