@@ -40,17 +40,24 @@
 * 8:30: Research on media queries
 * 9:30: Update Works Sanity content
 * 10:30: deployment on Railway.app experiments
+* 11:30 Deploy site on Netlify and demo it on diff devices
+
+Deployment Notes:
+-social media buttons are out of view on ipad
+-there is no social media button at all on mobile
+-contact form text should be black
+-There are no Tooltips on Ipad & mobile
+-make resume button more visible everywhere
+-mobile & ipad menu weirdly glitches
+-'About' heading on mobile is too wide
 
 //To Do:
--deployment/test on diff devices
+-Fix responsive design
+-Make Case Study pages
 
--Is Header img weird at 1200px??
--Make case study sections
-
+-------------------------------------------------
 -create component diagram on Figma
--make more media queries
 -work on front-ends of portfolio pieces/work section
-
 
 ## Known Bugs
 

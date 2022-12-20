@@ -37,6 +37,28 @@
    
     }
   }
+
+  @media screen and (min-width: 769px) {
+    width: 140px;
+    padding: 0;
+    margin: 1rem;
+    
+
+    img {
+      height: 122px;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 190px;
+    padding: 0;
+    margin: 1rem;
+    
+
+    img {
+      height: 170px;
+    }
+  }
 }
 
 .about-text {
