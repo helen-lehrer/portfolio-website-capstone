@@ -32,12 +32,11 @@
 
 ### Monday, 12/19/2022
 * 3:15: Work on front-end of Hair Salon
+* 4:15: Edit Hair Salon and Botanical Adventure Content for works
 
 //To Do:
 -create component diagram on figma
-
 -make more media queries
-
 -work on front-ends of portfolio pieces/work section
 
 ## Known Bugs
