@@ -5,6 +5,14 @@ import { Navbar } from './components';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.scss';
 
+const [selectedWork, setSelectedWork] = useState(null);
+
+const handleChangingSelectedWork = (id) => {
+  const selection = mainDreamList.filter(dream => dream.id === id)[0];
+  setSelectedDream(selection);
+
+}
+
 const App = () => {
   return (
     <div className="app">

@@ -12,6 +12,7 @@ const Work = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
+  const [selectedWork, setSelectedWork] = useState([]);
 
   useEffect(() => {
     const query = '*[_type == "works"]';
@@ -70,7 +71,7 @@ const Work = () => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                <Link to="/case-study" target="_blank" rel="noreferrer">
                   <motion.div
                   whileInView={{scale: [0, 1]}}
                   whileHover={{scale: [1, 0.9]}}
@@ -79,7 +80,7 @@ const Work = () => {
                   >
                     <AiFillEye />
                   </motion.div>
-                </a>
+                </Link>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                   whileInView={{scale: [0, 1]}}
