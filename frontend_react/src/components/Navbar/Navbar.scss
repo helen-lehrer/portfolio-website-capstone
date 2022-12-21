@@ -167,7 +167,6 @@
     }
   }
 }
-
 .app__navbar-menu {
   width: 35px;
   height: 35px;
@@ -256,3 +255,36 @@
     display: none;
   }
 }
+#app__navbar-menu-github {
+  margin: 0rem 0rem 0rem 0rem;
+}
+#app__navbar-menu-linkedin {
+  margin: 0rem 0rem 0rem 0rem;
+}
+// .app__navbar-menu-social {
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   flex-direction: row;
+  
+//   div {
+//     width: 40px;
+//     height: 40px;
+//     border-radius: 50%;
+//     background-color: rgba(0, 0, 0, 0.75);
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     transition: all 0.3s ease-in-out;
+//     margin: 0 .5rem 0 .5rem;
+
+//     svg {
+//       width: 15px;
+//       height: 15px;
+//       color: var(--white-color);
+//     }
+//   }
+//   @media screen and (min-width: 500px) {
+//     display: none;
+//   }
+// }

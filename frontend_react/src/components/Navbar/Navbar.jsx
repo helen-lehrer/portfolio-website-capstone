@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import './Navbar.scss';
 
@@ -22,7 +23,14 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
+      {/* <div className="app__navbar-menu-social">
+        <div id="app__navbar-menu-social-github">
+          <BsGithub />
+        </div>
+        <div id="app__navbar-menu-social-linkedin">
+          <BsLinkedin />
+        </div>
+      </div> */}
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
@@ -37,10 +45,27 @@ const Navbar = () => {
                   <li key={item}>
                     <a href={`#${item}`} className={item} onClick={() => setToggle(false)}>{item}</a>
                   </li>
-
               ))}
+              <li>
+                <a
+                href="https://github.com/helen-lehrer"
+                target="_blank"
+                rel="noreferrer">
+                  <BsGithub id="app__navbar-menu-github"/>
+                </a>
+              </li>
+              <li>
+                <a
+                href="https://www.linkedin.com/in/helen-lehrer/"
+                target="_blank"
+                rel="noreferrer">
+                  <BsLinkedin id="app__navbar-menu-linkedin"/>
+                </a>
+              </li>
             </ul>
+            
           </motion.div>
+          
         )}
       </div>
     </nav>

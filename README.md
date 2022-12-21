@@ -43,22 +43,18 @@
 * 11:30 Deploy site on Netlify and demo it on diff devices
 
 Deployment Notes:
--social media buttons are out of view on ipad
--there is no social media button at all on mobile
--contact form text should be black
+
 -There are no Tooltips on Ipad & mobile
 -make resume button more visible everywhere
 -mobile & ipad menu weirdly glitches
+
 (in process)
--'About' heading on mobile is too wide
--home screen spacing on mobile
--navigation spacing is slightly off
 
 //To Do:
 -Fix responsive design
 -Make Case Study pages
 
--------------------------------------------------
+---------------------------------------------
 -create component diagram on Figma
 -work on front-ends of portfolio pieces/work section
 
