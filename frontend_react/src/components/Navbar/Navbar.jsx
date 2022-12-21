@@ -3,6 +3,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import './Navbar.scss';
+import Resume from './../../assets/pdf/Resume.pdf';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -61,6 +62,13 @@ const Navbar = () => {
                 rel="noreferrer">
                   <BsLinkedin id="app__navbar-menu-linkedin"/>
                 </a>
+              </li>
+              <li>
+                <a href={Resume} target="_blank" 
+                rel="noreferrer"
+                id="resume-button">
+                Resume
+                </a> 
               </li>
             </ul>
             

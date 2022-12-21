@@ -43,12 +43,8 @@
 * 11:30 Deploy site on Netlify and demo it on diff devices
 
 Deployment Notes:
-
--There are no Tooltips on Ipad & mobile
--make resume button more visible everywhere
--mobile & ipad menu weirdly glitches
-
-(in process)
+-mobile menu glitch
+-ipad landscape mode
 
 //To Do:
 -Fix responsive design
@@ -60,7 +56,8 @@ Deployment Notes:
 
 ## Known Bugs
 
-* social media links disappear on mobile
+* landscape mode on ipad
+* mobile menu glitch
 
 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
