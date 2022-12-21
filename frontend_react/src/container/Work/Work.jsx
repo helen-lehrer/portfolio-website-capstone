@@ -6,13 +6,15 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Work.scss';
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-const Work = () => {
+const Work = (props) => {
+  console.log(props);
+  const { onClickingView } = props;
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
-  const [selectedWork, setSelectedWork] = useState([]);
 
   useEffect(() => {
     const query = '*[_type == "works"]';
@@ -78,7 +80,7 @@ const Work = () => {
                   transition={{ duration: 0.25 }}
                   className="app__flex"
                   >
-                    <AiFillEye />
+                    <AiFillEye onClick={()=>onClickingView(work)}/>
                   </motion.div>
                 </Link>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
@@ -107,6 +109,11 @@ const Work = () => {
       </motion.div>
     </>
   )
+}
+
+Work.propTypes = {
+  onClickingView: PropTypes.func,
+  work: PropTypes.string
 }
 
 export default AppWrap(

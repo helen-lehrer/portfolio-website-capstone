@@ -1,27 +1,24 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 import { Home, CaseStudy } from './container';
 import { Navbar } from './components';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.scss';
 
+const App = () => {
+
 const [selectedWork, setSelectedWork] = useState(null);
 
-const handleChangingSelectedWork = (id) => {
-  const selection = mainDreamList.filter(dream => dream.id === id)[0];
-  setSelectedDream(selection);
-
+const handleChangingSelectedWork = (work) => {
+  setSelectedWork(work);
 }
 
-const App = () => {
   return (
     <div className="app">
         <Navbar />
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/case-study" element={<CaseStudy />} />
-            {/* work={selectedWork} */}
+            <Route path="/" element={<Home onClickingView={handleChangingSelectedWork} />} />
+            <Route path="/case-study" element={<CaseStudy work={selectedWork}/>} />
           </Routes>
       </Router>
     </div>

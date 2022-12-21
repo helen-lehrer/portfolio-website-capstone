@@ -4,17 +4,24 @@ import About from './About/About';
 import Work from './Work/Work'; 
 import Skills from './Skills/Skills';
 import Footer from './Footer/Footer';
+import { PropTypes } from 'prop-types';
 
-const Home = () => {
+const Home = (props) => {
+  console.log(props);
+  const { onClickingView } = props;
   return (
     <>
-    <Header />
+    <Header test="test"/>
     <About />
-    <Work />
+    <Work work="hello" onClickingView={onClickingView} />
     <Skills />
     <Footer />
     </>
   )
+}
+
+Home.propTypes = {
+  onClickingView: PropTypes.func
 }
 
 export default Home
