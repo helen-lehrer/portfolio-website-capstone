@@ -42,11 +42,14 @@
 * 10:30: deployment on Railway.app experiments
 * 11:30 Deploy site on Netlify and demo it on diff devices
 
+## Wednesday, 12/21/2022
+* 1:30: Create outline for presentation
+
 //To Do:
 -Fix responsive design
 -Make Case Study pages
 
----------------------------------------------
+------------------------------------------
 -create component diagram on Figma
 -work on front-ends of portfolio pieces/work section
 
