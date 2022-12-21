@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { About, Footer, Header, Skills, Work } from './container';
+import { Home, CaseStudy } from './container';
 import { Navbar } from './components';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.scss';
@@ -8,16 +8,13 @@ import './App.scss';
 const App = () => {
   return (
     <div className="app">
-      <Router>
         <Navbar />
-        <Header />
-        <About />
-        <Work />
-        <Skills />
-        <Footer />
-        <Routes>
-          
-        </Routes>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/case-study" element={<CaseStudy />} />
+            {/* work={selectedWork} */}
+          </Routes>
       </Router>
     </div>
   )

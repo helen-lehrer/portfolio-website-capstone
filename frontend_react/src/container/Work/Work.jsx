@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Work.scss';
+import { Link } from "react-router-dom";
 
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -41,7 +42,7 @@ const Work = () => {
     <>
       <h2 className="head-text">My Portfolio
       </h2>
-
+      <Link to="/case-study"><button>Case Study</button></Link>
       <div className="app__work-filter">
         {['React JS', 'ASP.NET C#', 'All'].map((item, index) => (
           <div

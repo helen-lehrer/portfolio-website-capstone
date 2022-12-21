@@ -42,10 +42,6 @@
 * 10:30: deployment on Railway.app experiments
 * 11:30 Deploy site on Netlify and demo it on diff devices
 
-Deployment Notes:
--mobile menu glitch
--ipad landscape mode
-
 //To Do:
 -Fix responsive design
 -Make Case Study pages
@@ -57,6 +53,7 @@ Deployment Notes:
 ## Known Bugs
 
 * landscape mode on ipad
+* nav dots move around depending on height of sect (spec.portfolio)
 * mobile menu glitch
 
 320px — 480px: Mobile devices
