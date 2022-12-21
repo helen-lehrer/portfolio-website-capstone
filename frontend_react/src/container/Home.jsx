@@ -13,7 +13,7 @@ const Home = (props) => {
     <>
     <Header test="test"/>
     <About />
-    <Work work="hello" onClickingView={onClickingView} />
+    <Work onClickingView={onClickingView} />
     <Skills />
     <Footer />
     </>

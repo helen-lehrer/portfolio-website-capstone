@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const Work = (props) => {
-  console.log(props);
   const { onClickingView } = props;
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
@@ -115,9 +114,10 @@ Work.propTypes = {
   onClickingView: PropTypes.func,
   work: PropTypes.string
 }
+console.log(props.onClickingView);
 
 export default AppWrap(
-  MotionWrap(Work, 'app__works'),
+  MotionWrap(Work, 'app__works', props.onClickingView),
    'work',
    "app__primarybg"
    );
