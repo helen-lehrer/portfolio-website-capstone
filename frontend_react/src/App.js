@@ -14,8 +14,8 @@ const handleChangingSelectedWork = (work) => {
 
   return (
     <div className="app">
-        <Navbar />
         <Router>
+        <Navbar />
           <Routes>
             <Route path="/" element={<Home onClickingView={handleChangingSelectedWork}/>} />
             <Route path="/case-study" element={<CaseStudy work={selectedWork}/>} />
