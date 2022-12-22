@@ -49,8 +49,7 @@
 
 
 ## Known Bugs
-
-* react-router refactor needed
+* case study/github links are not visible on mobile
 * responsive landscape mode on Ipad
 * nav dots move around depending on height of a section (spec. portfolio)
 * mobile menu glitch
@@ -61,11 +60,10 @@
 ## Notes:
 
 To Do:
--Fix ipad responsive design
 -Add content to Case Study pages
 
-320px — 480px: Mobile devices
+<!-- 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
 1025px — 1200px: Desktops, large screens
-1201px and more —  Extra large screens, TV
+1201px and more —  Extra large screens, TV -->
