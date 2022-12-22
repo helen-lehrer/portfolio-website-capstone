@@ -30,8 +30,7 @@ const HtmlTooltip = styled(({ className, ...props }) => (
 }));
 
 
-const Header = (props) => {
-  console.log(props);
+const Header = () => {
   return (
     <div className="app__header app__flex">
       <motion.div

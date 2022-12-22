@@ -11,9 +11,9 @@ const Home = (props) => {
   const { onClickingView } = props;
   return (
     <>
-    <Header test="test"/>
+    <Header />
     <About />
-    <Work onClickingView={onClickingView} />
+    <Work onClickingView={onClickingView}/>
     <Skills />
     <Footer />
     </>

@@ -6,19 +6,19 @@ import './App.scss';
 
 const App = () => {
 
-// const [selectedWork, setSelectedWork] = useState(null);
+const [selectedWork, setSelectedWork] = useState(null);
 
-// const handleChangingSelectedWork = (work) => {
-//   setSelectedWork(work);
-// }
+const handleChangingSelectedWork = (work) => {
+  setSelectedWork(work);
+}
 
   return (
     <div className="app">
         <Navbar />
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/case-study" element={<CaseStudy />} />
+            <Route path="/" element={<Home onClickingView={handleChangingSelectedWork}/>} />
+            <Route path="/case-study" element={<CaseStudy work={selectedWork}/>} />
           </Routes>
       </Router>
     </div>

@@ -8,11 +8,13 @@ import './Work.scss';
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Work = () => {
+const Work = (props) => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
+
+  const { onClickingView } = props;
 
   useEffect(() => {
     const query = '*[_type == "works"]';
@@ -70,7 +72,7 @@ const Work = () => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
-                <Link to="/case-study" target="_blank" rel="noreferrer">
+                <Link to="/case-study" onClick={()=>onClickingView(work)}>
                   <motion.div
                   whileInView={{scale: [0, 1]}}
                   whileHover={{scale: [1, 0.9]}}

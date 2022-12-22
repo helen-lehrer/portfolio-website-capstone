@@ -1,3 +1,5 @@
+## Personal Portfolio Website
+
 ### Research & Planning Log
 #### Friday, 12/2/2022
 * 8:00: Prioritize to-dos
@@ -45,19 +47,20 @@
 ## Wednesday, 12/21/2022
 * 1:30: Create outline for presentation
 
-//To Do:
--Fix responsive design
--Make Case Study pages
-
-------------------------------------------
--create component diagram on Figma
--work on front-ends of portfolio pieces/work section
 
 ## Known Bugs
 
-* landscape mode on ipad
-* nav dots move around depending on height of sect (spec.portfolio)
+* responsive landscape mode on Ipad
+* nav dots move around depending on height of a section (spec. portfolio)
 * mobile menu glitch
+
+-------------------
+
+## Notes:
+
+To Do:
+-Fix responsive design
+-Make Case Study pages
 
 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
