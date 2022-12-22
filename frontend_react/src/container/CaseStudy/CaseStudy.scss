@@ -1,11 +1,15 @@
-#test {
-  padding-top: 100px;
+.app__casestudy {
+  padding: 6rem 2rem 0 2rem;
+}
+
+.app__casestudy-desc {
+  padding: 1rem;
 }
 
 .app__casestudy-img {
-  width: 50%;
-  margin: 2rem;
-  position: relative;
+  width: 80%;
+  margin: auto;
+  object-position: 50% 50%;
 
   img {
     width: 100%;

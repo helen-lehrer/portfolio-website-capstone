@@ -9,12 +9,13 @@ const CaseStudy = (props) => {
   const { work } = props;
   return (
     <>
-      <h1 id="test">{work.title}</h1>
-      <p>{work.description}</p>
-      <div className="app__casestudy-img app__flex">
-        <img src={urlFor(work.imgUrl)} alt={work.name} />
+      <div className="app__casestudy">
+        <h1 className="head-text">{work.title} <span>Case Study</span></h1>
+        <p className="p-text app__flex app__casestudy-desc">{work.description}</p>
+        <div className="app__casestudy-img">
+          <img src={urlFor(work.imgUrl)} alt={work.name} />
+        </div>
       </div>
-
     </>
   )
 }
