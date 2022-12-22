@@ -8,8 +8,7 @@ import './Work.scss';
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Work = (props) => {
-  const { onClickingView } = props;
+const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
   const [works, setWorks] = useState([]);
@@ -44,7 +43,6 @@ const Work = (props) => {
     <>
       <h2 className="head-text">My Portfolio
       </h2>
-      <Link to="/case-study"><button>Case Study</button></Link>
       <div className="app__work-filter">
         {['React JS', 'ASP.NET C#', 'All'].map((item, index) => (
           <div
@@ -79,7 +77,7 @@ const Work = (props) => {
                   transition={{ duration: 0.25 }}
                   className="app__flex"
                   >
-                    <AiFillEye onClick={()=>onClickingView(work)}/>
+                    <AiFillEye />
                   </motion.div>
                 </Link>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
@@ -114,10 +112,9 @@ Work.propTypes = {
   onClickingView: PropTypes.func,
   work: PropTypes.string
 }
-console.log(props.onClickingView);
 
 export default AppWrap(
-  MotionWrap(Work, 'app__works', props.onClickingView),
+  MotionWrap(Work, 'app__works'),
    'work',
    "app__primarybg"
    );

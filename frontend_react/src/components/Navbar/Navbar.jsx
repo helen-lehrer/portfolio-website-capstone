@@ -48,6 +48,12 @@ const Navbar = () => {
                   </li>
               ))}
               <li>
+                <a href={Resume} target="_blank" 
+                rel="noreferrer" id="resume-button">
+                Resume (PDF)
+                </a> 
+              </li>
+              <li>
                 <a
                 href="https://github.com/helen-lehrer"
                 target="_blank"
@@ -62,13 +68,6 @@ const Navbar = () => {
                 rel="noreferrer">
                   <BsLinkedin id="app__navbar-menu-linkedin"/>
                 </a>
-              </li>
-              <li>
-                <a href={Resume} target="_blank" 
-                rel="noreferrer"
-                id="resume-button">
-                Resume
-                </a> 
               </li>
             </ul>
             

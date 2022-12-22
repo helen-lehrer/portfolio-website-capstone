@@ -10,7 +10,7 @@ const CaseStudy = (props) => {
   console.log(work);
   return (
     <>
-      <h1 id="test">{work.name}</h1>
+      <h1 id="test">Case Study</h1>
     </>
   )
 }

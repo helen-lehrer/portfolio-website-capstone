@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const MotionWrap = (Component, classNames, props) => function HOC() {
+const MotionWrap = (Component, classNames) => function HOC() {
   return (
     <motion.div
     whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
@@ -9,7 +9,7 @@ const MotionWrap = (Component, classNames, props) => function HOC() {
     className={`${classNames} app__flex`}
     >
 
-      <Component onClickingView={props}/>
+      <Component />
     </motion.div>
   )
 }

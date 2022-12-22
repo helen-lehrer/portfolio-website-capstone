@@ -263,20 +263,4 @@
 }
 
 #resume-button {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background-color: var(--dark-gray-color);
-  color: var(--white-color);
-  font-weight: 800;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  cursor: pointer;
-
-  &:hover {
-    background-color: var(--secondary-color);
-    color: #fff;
-  }
 }
