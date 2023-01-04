@@ -1,4 +1,34 @@
-## Personal Portfolio Website
+# Personal Portfolio Website 
+
+[helenlehrer.com](https://helenlehrer.com)
+
+#### A Sanity.io/React Responsive Personal Portfolio Website
+
+## Description
+
+A Personal Portfolio website built with [Sanity.io](https://www.sanity.io/) and React to showcase my development projects and frontend styling skills. The website is fully responsive and mobile-friendly.
+
+### Features:
+
+* Fully responsive - up to 7 breakpoints per component
+* Responsive desktop and mobile navbar
+* Custom built Sanity schemas and dynamically displayed content
+* Contact form messages are dynamically added to Sanity client
+* [Framer Motion](https://www.framer.com/motion/) library used for UI animation
+* CSS keyframe animation used for the homepage Header text
+* Use of higher-order components (HOC) for reusing component logic
+* Use of SCSS utility classes and variables
+
+### Technologies Used:
+
+* React 18.2.0
+  * React-router-dom 6.5.0
+  * React-tooltip 4.2.21
+* Sanity Client 3.4.1
+* Framer Motion 7.6.18
+* Sass 7.0.3
+* MUI component library
+
 
 ### Research & Planning Log
 #### Friday, 12/2/2022
@@ -50,9 +80,10 @@
 
 ## Known Bugs
 * case study/github links are not visible on mobile
-* responsive landscape mode on Ipad
+* ipad- responsive landscape mode
 * nav dots move around depending on height of a section (spec. portfolio)
-* mobile menu glitch
+* mobile- menu glitch
+* mobile- icons on header come in too slowly
 
 
 -------------------
@@ -60,6 +91,7 @@
 ## Notes:
 
 To Do:
+-update Sanity schemas
 -Add content to Case Study pages
 
 <!-- 320px — 480px: Mobile devices
