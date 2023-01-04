@@ -4,9 +4,9 @@
 
 #### A Sanity.io/React Responsive Personal Portfolio Website
 
-## Description
+### Description
 
-A Personal Portfolio website built with [Sanity.io](https://www.sanity.io/) and React to showcase my development projects and frontend styling skills. The website is fully responsive and mobile-friendly.
+A Personal Portfolio website built with [Sanity.io](https://www.sanity.io/) and React to showcase my development projects and frontend styling skills. The website is fully responsive/mobile-friendly.
 
 ### Features:
 
@@ -80,21 +80,19 @@ A Personal Portfolio website built with [Sanity.io](https://www.sanity.io/) and 
 
 ## Known Bugs
 * case study/github links are not visible on mobile
-* ipad- responsive landscape mode
+* ipad- responsive landscape mode Header overlap
 * nav dots move around depending on height of a section (spec. portfolio)
 * mobile- menu glitch
 * mobile- icons on header come in too slowly
 
-
--------------------
-
+<!-- 
 ## Notes:
 
 To Do:
 -update Sanity schemas
 -Add content to Case Study pages
 
-<!-- 320px — 480px: Mobile devices
+320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
 1025px — 1200px: Desktops, large screens
