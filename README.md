@@ -85,6 +85,9 @@ A Personal Portfolio website built with [Sanity.io](https://www.sanity.io/) and 
 * nav dots move around depending on height of a section (spec. portfolio)
 * mobile- menu glitch
 * mobile- icons on header come in too slowly
+* xtra large- About sections are too narrow
+* xtra large- Navbar triangles are too small
+* xtra large- Oregon porject is bigger than the other cards
 
 <!-- 
 ## Notes:
