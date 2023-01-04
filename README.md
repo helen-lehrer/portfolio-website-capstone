@@ -29,6 +29,7 @@ A Personal Portfolio website built with [Sanity.io](https://www.sanity.io/) and 
 * Sass 7.0.3
 * MUI component library
 
+---
 
 ### Research & Planning Log
 #### Friday, 12/2/2022
