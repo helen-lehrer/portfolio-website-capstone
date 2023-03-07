@@ -1,8 +1,6 @@
 [build]
-  publish = "public/"
-
-  # Default build command.
   command = "npm run build"
+  publish = "build/public"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
