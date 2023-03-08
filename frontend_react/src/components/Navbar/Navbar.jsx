@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { motion } from 'framer-motion';

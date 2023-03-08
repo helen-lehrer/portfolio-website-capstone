@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { AppWrap, MotionWrap } from '../../wrapper';
-import { urlFor, client } from '../../client';
+import React from 'react';
+import { urlFor } from '../../client';
 import PropTypes from "prop-types";
 
 import './CaseStudy.scss';
