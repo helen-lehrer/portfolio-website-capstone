@@ -2,3 +2,8 @@
   command = "npm run build"
   publish = "build"
   environment = { CI = "false" }
+
+  [build.environment]
+REACT_APP_SANITY_PROJECT_ID = "${{ secrets.SANITY_PROJECT_ID }}"
+REACT_APP_SANITY_TOKEN = "${{ secrets.REACT_APP_SANITY_TOKEN }}"
+
