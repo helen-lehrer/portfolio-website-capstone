@@ -7,7 +7,6 @@ import Footer from './Footer/Footer';
 import { PropTypes } from 'prop-types';
 
 const Home = (props) => {
-  console.log(props);
   const { onClickingView } = props;
   return (
     <>
