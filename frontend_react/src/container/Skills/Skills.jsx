@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-import Resume from './../../assets/pdf/Resume.pdf';
+import resume from './../../assets/pdf/Resume.pdf';
 
 import './Skills.scss';
 
@@ -47,7 +47,7 @@ const Skills = () => {
           ))}
         </motion.div>
       </div>
-      <a href={Resume} target="_blank" 
+      <a href={resume} target="_blank" 
       rel="noreferrer"
       className="resume-button">
       Resume
