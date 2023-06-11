@@ -6,6 +6,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Work.scss';
 import { Link } from "react-router-dom";
+import { images } from '../../constants';
 import PropTypes from "prop-types";
 
 const Work = (props) => {
@@ -106,12 +107,13 @@ const Work = (props) => {
                 </a>
               </motion.div>
             </div>
-            {console.log(filterWork)};
-
             <div className="app__work-content app__flex">     
               {work.projectLink ? (
-              <a href={work.projectLink} target="_blank" className="bold-text" rel="noreferrer">
-              {work.title}</a>) : (
+              <div className="app__work-heading">
+                <img src={images.live} alt={"live_icon"} width="30px" />
+                <a href={work.projectLink} target="_blank" className="bold-text" rel="noreferrer">
+                {work.title}</a>
+              </div>) : (
                 <h4>{work.title}</h4>
               )}
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
