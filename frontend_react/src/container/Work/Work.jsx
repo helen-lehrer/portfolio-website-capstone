@@ -13,6 +13,7 @@ const Work = (props) => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 })
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
+  const [workURL, setWorkURL] = useState('');
 
   const { onClickingView } = props;
 
@@ -95,10 +96,13 @@ const Work = (props) => {
               </motion.div>
             </div>
 
-            <div className="app__work-content app__flex">
-              <h4 className="bold-text">{work.title}</h4>
+            <div className="app__work-content app__flex">     
+              {work.projectLink ? (
+              <a href={work.projectLink} target="_blank" className="bold-text" rel="noreferrer">
+              {work.title}</a>) : (
+                <h4>{work.title}</h4>
+              )}
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
-
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
               </div>

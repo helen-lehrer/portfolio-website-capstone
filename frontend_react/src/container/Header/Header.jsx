@@ -62,7 +62,7 @@ const Header = () => {
         className="app__header-circles"
       >
    
-        {[{"image": images.css, "tooltip": "CSS3", "id": "0"}, {"image": images.react, "tooltip": "React/Redux", "id": "1"}, {"image": images.javascript, "tooltip": "Javascript/Node.js", "id": "2"}].map((circle, index) => (
+        {[{"image": images.javascript, "tooltip": "Javascript", "id": "0"}, {"image": images.react, "tooltip": "React", "id": "1"}, {"image": images.csharp, "tooltip": "C#", "id": "2"}].map((circle, index) => (
           <>
           <HtmlTooltip title={circle["tooltip"]} placement="right">
           <div className="circle-cmp app__flex " id={circle["id"]} key={`circle-${index}`} data-tip  data-for={`circle-${index}`}>

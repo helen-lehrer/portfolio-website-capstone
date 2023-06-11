@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { client } from '../../client';
+import emailjs from 'emailjs-com';
 
 import './Footer.scss';
 
@@ -21,18 +21,22 @@ const Footer = () => {
   const handleSubmit = () => {
     setLoading(true);
 
-    const contact = {
-      _type: 'contact',
-      name: name,
-      email: email,
+    const templateParams = {
+      from_name: name,
+      from_email: email,
       message: message
-    }
+    };
 
-    client.create(contact)
-      .then(() => {
-        setLoading(false);
-        setIsFormSubmitted(true);
-      })
+    emailjs
+    .send('service_iizwdzu', 'template_yzyb1st', templateParams, process.env.USER_ID)
+    .then(() => {
+      setLoading(false);
+      setIsFormSubmitted(true);
+    })
+    .catch((error) => {
+      console.error('Error sending email:', error);
+      setLoading(false);
+    });
   }
   return (
     <>
@@ -41,7 +45,7 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" id="app__footer-card-email" />
-          <a href="mailto:hlehrer@outlook.com" className="p-text">hlehrer@outlook.com</a>
+          <a href="mailto:helen.lehrer.dev+website@gmail.com" className="p-text">helen.lehrer.dev@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile"
