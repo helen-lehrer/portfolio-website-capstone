@@ -61,8 +61,17 @@ const Work = (props) => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
+        {console.log(filterWork)}
         {filterWork
-          .sort((a, b) => a.work.tags.includes)
+          .sort((a, b) => {
+            if (a.sort < b.sort) {
+              return -1;
+            } else if (a.sort > b.sort) {
+              return 1;
+            } else {
+              return 0;
+            }
+          })
           .map((work, index) => (
           <div 
           className="app__work-item app__flex"
@@ -97,6 +106,7 @@ const Work = (props) => {
                 </a>
               </motion.div>
             </div>
+            {console.log(filterWork)};
 
             <div className="app__work-content app__flex">     
               {work.projectLink ? (
