@@ -45,6 +45,12 @@ export default {
          }
        ]
       },
+
+      {
+        name:'sort',
+        title:'Sort #',
+        type:'number'
+      }
      
     ],
   };

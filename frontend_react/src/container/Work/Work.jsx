@@ -61,7 +61,9 @@ const Work = (props) => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {filterWork.map((work, index) => (
+        {filterWork
+          .sort((a, b) => a.work.tags.includes)
+          .map((work, index) => (
           <div 
           className="app__work-item app__flex"
           key={index}>
