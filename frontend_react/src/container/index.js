@@ -4,4 +4,4 @@
 // export { default as Skills } from './Skills/Skills';
 // export { default as Work } from './Work/Work';
 export { default as Home } from './Home';
-export { default as CaseStudy } from './CaseStudy/CaseStudy';
+export { default as LessonsLearned } from './LessonsLearned/LessonsLearned';

@@ -50,6 +50,13 @@ export default {
         name:'sort',
         title:'Sort #',
         type:'number'
+      },
+
+      {
+        name: 'thingsILearned',
+        title: 'Things I Learned',
+        type:'array',
+        of: [{type: 'string'}]
       }
      
     ],
