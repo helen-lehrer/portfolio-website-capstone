@@ -21,6 +21,10 @@ export default{
               hotspot: true,
             },
         },
-        
+        {
+            name: 'sort',
+            title: 'Sort #',
+            type: 'number'
+        }
     ]
 }
