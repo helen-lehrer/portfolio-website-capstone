@@ -62,7 +62,6 @@ const Work = (props) => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {console.log(filterWork)}
         {filterWork
           .sort((a, b) => {
             if (a.sort < b.sort) {
