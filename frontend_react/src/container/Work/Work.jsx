@@ -84,16 +84,6 @@ const Work = (props) => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
-                <Link to="/case-study" onClick={()=>onClickingView(work)}>
-                  <motion.div
-                  whileInView={{scale: [0, 1]}}
-                  whileHover={{scale: [1, 0.9]}}
-                  transition={{ duration: 0.25 }}
-                  className="app__flex"
-                  >
-                    <AiFillEye />
-                  </motion.div>
-                </Link>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                   whileInView={{scale: [0, 1]}}
@@ -116,6 +106,11 @@ const Work = (props) => {
                 <h4>{work.title}</h4>
               )}
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
+              {work.thingsILearned ? (
+                 <Link to="/case-study" onClick={()=>onClickingView(work)}>
+                 <p className="p-text" style={{ marginTop: 10 }}>Lessons Learned</p>
+              </Link>
+              ) : null}
               <div className="app__work-tag app__flex">
                 
                 <p className="p-text">{work.tags[0]}</p>
