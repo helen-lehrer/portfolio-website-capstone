@@ -43,7 +43,7 @@ const Header = () => {
             <div style={{ marginLeft:20 }}>
               <p className="p-text">Hello, I am</p>
               <span className="head-text">Helen Lehrer.{" "}</span>
-                <p className="p-text">Frontend developer making magic on the web.</p>
+                <p className="p-text">Full stack developer making magic on the web.</p>
             </div>
           </div>
         </div>
